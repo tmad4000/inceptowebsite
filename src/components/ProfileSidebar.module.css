@@ -1,0 +1,55 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatarWrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 24px;
+    border: 4px solid white;
+    box-shadow: var(--tile-shadow);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    color: var(--foreground);
+}
+
+.bio {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 32px;
+}
+
+.contactBtn {
+    background: var(--foreground);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 99px;
+    font-weight: 600;
+    width: fit-content;
+    transition: transform 0.2s ease;
+}
+
+.contactBtn:hover {
+    transform: scale(1.05);
+}

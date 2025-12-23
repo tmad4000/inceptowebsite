@@ -1,0 +1,51 @@
+{
+  "profile": {
+    "name": "Incepto",
+    "displayName": "Incepto",
+    "username": "incepto",
+    "bio": "Live in the future, then build what’s missing.",
+    "avatar": "https://bento.me/_next/image?url=https%3A%2F%2Fimages.bento.me%2Fuser%2F1c6e4e8e1e8b4e8e8e8e8e%2Favatar.png&w=256&q=75",
+    "location": "West Menlo Park, CA"
+  },
+  "tiles": [
+    {
+      "id": "cresta",
+      "type": "link",
+      "title": "Cresta",
+      "subtitle": "cresta.com",
+      "url": "https://cresta.com",
+      "size": "1x1",
+      "icon": "https://cresta.com/favicon.ico"
+    },
+    {
+      "id": "luminai",
+      "type": "link",
+      "title": "Luminai",
+      "subtitle": "luminai.com",
+      "url": "https://luminai.com",
+      "size": "1x1",
+      "icon": "https://luminai.com/favicon.ico"
+    },
+    {
+      "id": "ideaflow",
+      "type": "link",
+      "title": "Ideaflow",
+      "subtitle": "ideaflow.io",
+      "url": "https://ideaflow.io",
+      "size": "1x1",
+      "icon": "https://ideaflow.io/favicon.ico"
+    },
+    {
+      "id": "quote-1",
+      "type": "text",
+      "content": "Live in the future, then build what’s missing.",
+      "size": "2x1"
+    },
+    {
+      "id": "map",
+      "type": "map",
+      "location": "West Menlo Park, CA",
+      "size": "2x2"
+    }
+  ]
+}

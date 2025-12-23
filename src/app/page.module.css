@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 300px;
+    position: sticky;
+    top: 80px;
+}
+
+.gridContainer {
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+}
