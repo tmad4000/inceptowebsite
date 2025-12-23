@@ -8,6 +8,7 @@ interface ProfileProps {
         bio: string;
         avatar: string;
         location: string;
+        contact?: string;
     };
 }
 
@@ -19,9 +20,9 @@ export default function ProfileSidebar({ profile }: ProfileProps) {
             </div>
             <h1 className={styles.name}>{profile.displayName}</h1>
             <p className={styles.bio}>{profile.bio}</p>
-            <div className={styles.meta}>
-                <span className={styles.location}>📍 {profile.location}</span>
-            </div>
+            {profile.contact && (
+                <p className={styles.contact}>Contact: {profile.contact}</p>
+            )}
             <button className={styles.contactBtn}>Contact</button>
         </div>
     );

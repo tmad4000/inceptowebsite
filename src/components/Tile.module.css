@@ -4,12 +4,15 @@
     border: 1px solid var(--tile-border);
     box-shadow: var(--tile-shadow);
     overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.24s cubic-bezier(0.43, 0.01, 0.29, 1), box-shadow 0.2s ease-in-out;
     display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .tile:hover {
-    transform: translateY(-4px) scale(1.02);
+    transform: translateY(-4px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
 }
 
@@ -36,20 +39,31 @@
     aspect-ratio: 1;
 }
 
+.size_4x1 {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+/* Content Styles */
 .linkContent {
-    padding: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 100%;
     height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkContent:not(:has(.linkImageWrapper)) {
+    padding: 24px;
+    justify-content: space-between;
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     border-radius: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .textContent {
@@ -58,41 +72,126 @@
 }
 
 .title {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 4px;
 }
 
 .subtitle {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--text-muted);
 }
 
-.text {
-    background: white;
+/* Link Image with Overlay */
+.linkImageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.linkImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.linkInfoOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.miniIcon {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+}
+
+.titleSmall {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.subtitleSmall {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin: 0;
 }
 
 .textContentCenter {
     padding: 32px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
 }
 
+.quoteMark {
+    font-size: 4rem;
+    font-family: Georgia, serif;
+    color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .content {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.3;
 }
 
-.map {
-    background: #f0f0f0;
-    background-image: linear-gradient(45deg, #e5e5e5 25%, transparent 25%, transparent 75%, #e5e5e5 75%, #e5e5e5),
-        linear-gradient(45deg, #e5e5e5 25%, transparent 25%, transparent 75%, #e5e5e5 75%, #e5e5e5);
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
+.imageWrapper,
+.videoWrapper,
+.spotifyWrapper,
+.youtubeWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bgImage,
+.bgVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 20px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.header {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    align-items: center;
+    pointer-events: none;
+}
+
+.headerTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 32px 0 16px 0;
+    color: var(--foreground);
 }
 
 .mapPlaceholder {
@@ -101,6 +200,8 @@
     display: flex;
     align-items: flex-end;
     padding: 24px;
+    background: url('https://maps.googleapis.com/maps/api/staticmap?center=West+Menlo+Park,CA&zoom=13&size=400x400&sensor=false&style=feature:all|element:labels|visibility:off&style=feature:geometry|color:0xf5f5f5&style=feature:water|color:0xc9c9c9') no-repeat center center;
+    background-size: cover;
 }
 
 .mapInfo {
@@ -111,6 +212,23 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    .size_4x1 {
+        grid-column: span 2;
+    }
+
+    .size_2x1,
+    .size_2x2,
+    .size_1x2 {
+        /* Keep them for now, grid will handle flow */
+    }
+
+    .content {
+        font-size: 1.1rem;
+    }
 }

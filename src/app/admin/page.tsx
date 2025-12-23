@@ -79,23 +79,50 @@ export default function AdminPage() {
                                 {tile.type === 'link' && (
                                     <>
                                         <input
-                                            value={tile.title}
+                                            value={tile.title || ''}
                                             placeholder="Title"
                                             onChange={(e) => updateTile(tile.id, 'title', e.target.value)}
                                         />
                                         <input
-                                            value={tile.url}
+                                            value={tile.url || ''}
                                             placeholder="URL"
                                             onChange={(e) => updateTile(tile.id, 'url', e.target.value)}
                                         />
                                     </>
                                 )}
                                 {tile.type === 'text' && (
-                                    <textarea
-                                        value={tile.content}
-                                        onChange={(e) => updateTile(tile.id, 'content', e.target.value)}
-                                    />
+                                    <>
+                                        <textarea
+                                            value={tile.content || ''}
+                                            placeholder="Content"
+                                            onChange={(e) => updateTile(tile.id, 'content', e.target.value)}
+                                        />
+                                        <input
+                                            value={tile.variant || ''}
+                                            placeholder="Variant (e.g. quote)"
+                                            onChange={(e) => updateTile(tile.id, 'variant', e.target.value)}
+                                        />
+                                    </>
                                 )}
+                                {tile.type === 'image' && (
+                                    <>
+                                        <input
+                                            value={tile.url || ''}
+                                            placeholder="Image URL"
+                                            onChange={(e) => updateTile(tile.id, 'url', e.target.value)}
+                                        />
+                                        <input
+                                            value={tile.caption || ''}
+                                            placeholder="Caption"
+                                            onChange={(e) => updateTile(tile.id, 'caption', e.target.value)}
+                                        />
+                                    </>
+                                )}
+                                <input
+                                    value={tile.size || ''}
+                                    placeholder="Size (1x1, 2x1, etc.)"
+                                    onChange={(e) => updateTile(tile.id, 'size', e.target.value)}
+                                />
                             </div>
                         ))}
                     </div>

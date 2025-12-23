@@ -4,13 +4,11 @@
 }
 
 .avatarWrapper {
-    width: 120px;
-    height: 120px;
+    width: 184px;
+    height: 184px;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 24px;
-    border: 4px solid white;
-    box-shadow: var(--tile-shadow);
+    margin-bottom: 32px;
 }
 
 .avatar {
@@ -20,22 +18,22 @@
 }
 
 .name {
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 700;
     line-height: 1.1;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     color: var(--foreground);
 }
 
 .bio {
-    font-size: 1.1rem;
+    font-size: 20px;
     color: var(--text-muted);
-    line-height: 1.5;
+    line-height: 28px;
     margin-bottom: 24px;
 }
 
-.meta {
-    font-size: 0.9rem;
+.contact {
+    font-size: 16px;
     color: var(--text-muted);
     margin-bottom: 32px;
 }
@@ -43,13 +41,41 @@
 .contactBtn {
     background: var(--foreground);
     color: white;
-    padding: 12px 24px;
+    padding: 12px 32px;
     border-radius: 99px;
     font-weight: 600;
     width: fit-content;
     transition: transform 0.2s ease;
+    font-size: 16px;
 }
 
 .contactBtn:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+    .sidebar {
+        align-items: center;
+        text-align: center;
+    }
+
+    .avatarWrapper {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 24px;
+    }
+
+    .name {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .bio {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .contact {
+        margin-bottom: 24px;
+    }
 }

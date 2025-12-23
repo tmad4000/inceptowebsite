@@ -1,21 +1,111 @@
 {
   "profile": {
-    "name": "Incepto",
-    "displayName": "Incepto",
+    "name": "Incepto House",
+    "displayName": "Incepto House",
     "username": "incepto",
-    "bio": "Live in the future, then build what’s missing.",
-    "avatar": "https://bento.me/_next/image?url=https%3A%2F%2Fimages.bento.me%2Fuser%2F1c6e4e8e1e8b4e8e8e8e8e%2Favatar.png&w=256&q=75",
-    "location": "West Menlo Park, CA"
+    "bio": "Heart-centered intellectual house in Menlo Park, CA, near Stanford University",
+    "avatar": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2FTitNTkLOB3dXeNn6-E289C0B4-B5B9-45B6-8467-81AAD3AE836C.jpeg",
+    "location": "Menlo Park, CA",
+    "contact": "incepto.house@gmail.com"
   },
   "tiles": [
+    {
+      "id": "backyard",
+      "type": "image",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2FSdNvNi89SNAyxb7D-incepto%2520backyard%2520landing%2520page%2520image1.png",
+      "size": "2x1"
+    },
+    {
+      "id": "living-room",
+      "type": "image",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2F4vgyLhiJJJyPtLpw-inceptolivingroompicture.jpg",
+      "size": "2x2",
+      "caption": "Our lovely living room / library"
+    },
+    {
+      "id": "map",
+      "type": "map",
+      "location": "West Menlo Park, CA, USA",
+      "size": "2x2"
+    },
+    {
+      "id": "workspace",
+      "type": "image",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2FBVUqCUz2o1QbW9mP-inceptolivingworkspacepicture.jpg",
+      "size": "1x1"
+    },
+    {
+      "id": "dining",
+      "type": "image",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2FJl8HLPcjTE50tFK5-inceptodiningpicture.jpg",
+      "size": "2x1"
+    },
+    {
+      "id": "kitchen",
+      "type": "image",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2FTTeNmkfGVSih1muf-inceptokitchenpicture.jpg",
+      "size": "2x1"
+    },
+    {
+      "id": "splash",
+      "type": "image",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2F6BVKmc7OVY42P8Dq-backgroundfullsplashpicture.jpg",
+      "size": "1x2"
+    },
+    {
+      "id": "quote",
+      "type": "text",
+      "content": "Live in the future, then build what’s missing.",
+      "size": "1x2",
+      "variant": "quote"
+    },
+    {
+      "id": "useful-links",
+      "type": "header",
+      "title": "Useful Links",
+      "size": "4x1"
+    },
+    {
+      "id": "map-link",
+      "type": "link",
+      "title": "incepto.house | 522: Connection timed out",
+      "subtitle": "map.incepto.house",
+      "url": "http://map.incepto.house",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites/aHR0cDovL21hcC5pbmNlcHRvLmhvdXNl/screenshot.jpeg"
+    },
+    {
+      "id": "living-well",
+      "type": "link",
+      "title": "Tips for Living Well #guide",
+      "subtitle": "ideaflow.app",
+      "url": "https://ideaflow.app/shared/m0uPb_2bFJ",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites/aHR0cHM6Ly9pZGVhZmxvdy5hcHAvc2hhcmVkL20wdVBiXzJiRko=/screenshot.jpeg"
+    },
+    {
+      "id": "coliving-habits",
+      "type": "link",
+      "title": "Good Coliving Habits #guide",
+      "subtitle": "ideaflow.app",
+      "url": "https://ideaflow.app/shared/QOsxSyLssz",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites/aHR0cHM6Ly9pZGVhZmxvdy5hcHAvc2hhcmVkL1FPc3hTeUxzc3o=/screenshot.jpeg"
+    },
+    {
+      "id": "built-header",
+      "type": "header",
+      "title": "Built by Inceptans 🚀",
+      "size": "4x1"
+    },
     {
       "id": "cresta",
       "type": "link",
       "title": "Cresta",
-      "subtitle": "cresta.com",
-      "url": "https://cresta.com",
+      "subtitle": "cresta.ai",
+      "url": "http://cresta.ai",
       "size": "1x1",
-      "icon": "https://cresta.com/favicon.ico"
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9jZG4ucHJvZC53ZWJzaXRlLWZpbGVzLmNvbS82N2ZlNDliZjIxYjlmOWQ1YjkxMGQzYzkvNjg3MjI2YmE3N2Y0NTRjNWQ5YjBlOWQyX3dlYmNsaXAucG5n.png"
     },
     {
       "id": "luminai",
@@ -24,27 +114,271 @@
       "subtitle": "luminai.com",
       "url": "https://luminai.com",
       "size": "1x1",
-      "icon": "https://luminai.com/favicon.ico"
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9jZG4ucHJvZC53ZWJzaXRlLWZpbGVzLmNvbS82N2NlZjc3NjRlZGRkNTU2NTQ1NjBmODMvNjdjZjFhZTdiNjBiYTU3OWYyNDlhZjJhXzI1Ni5wbmc%3D.png"
     },
     {
-      "id": "ideaflow",
+      "id": "ideaflow-link",
       "type": "link",
       "title": "Ideaflow",
       "subtitle": "ideaflow.io",
-      "url": "https://ideaflow.io",
+      "url": "http://ideaflow.io",
       "size": "1x1",
-      "icon": "https://ideaflow.io/favicon.ico"
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9jZG4ucHJvZC53ZWJzaXRlLWZpbGVzLmNvbS81ZWY5NWFlMjJhMjUxZTBjOTAzMDgwMGUvNWYyMGUwYjE2ZTcyYWM4ZjBlMjY0NzE1X1dlYmNsaXAuanBn.jpeg"
     },
     {
-      "id": "quote-1",
-      "type": "text",
-      "content": "Live in the future, then build what’s missing.",
-      "size": "2x1"
+      "id": "pesto",
+      "type": "link",
+      "title": "Pesto Tech",
+      "subtitle": "pesto.tech",
+      "url": "http://pesto.tech",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9jZG4ucHJvZC53ZWJzaXRlLWZpbGVzLmNvbS82NTE1OWU4NDRmOGYwOGE3MmNlZmEyYWEvNjUxNTllODQ0ZjhmMDhhNzJjZWZhNTliX1dlYmNsaXAucG5n.png"
     },
     {
-      "id": "map",
-      "type": "map",
-      "location": "West Menlo Park, CA",
+      "id": "truefi",
+      "type": "link",
+      "title": "TrueFi",
+      "subtitle": "truefi.io",
+      "url": "http://truefi.io",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cDovL3RydWVmaS5pby9zdGF0aWMvZmF2aWNvbi0wMDM5ZDUwZmI1OTQzYmMwNjI5ZWY0ZDNmZjFhZTRiOS5pY28%3D.ico"
+    },
+    {
+      "id": "hazel",
+      "type": "link",
+      "title": "meethazel.ai",
+      "subtitle": "meethazel.ai",
+      "url": "http://meethazel.ai",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FJQUFBQ1FkMVBlQUFBQURFbEVRVlFJMTJQNC8vOC9BQVgrQXY3Y3pGbm5BQUFBQUVsRlRrU3VRbUND.jpeg"
+    },
+    {
+      "id": "ambience",
+      "type": "link",
+      "title": "Ambience Healthcare",
+      "subtitle": "ambiencehealthcare.com",
+      "url": "http://ambiencehealthcare.com",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9mcmFtZXJ1c2VyY29udGVudC5jb20vaW1hZ2VzL2hhVHBacEJWdEpHa25Eb3l4N0RTQ0xhdlEucG5n.png"
+    },
+    {
+      "id": "roadflex",
+      "type": "link",
+      "title": "RoadFlex",
+      "subtitle": "roadflex.com",
+      "url": "http://roadflex.com",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2Nkbi5yb2FkZmxleC5jb20vc3ZnL3JvYWRmbGV4LWxvZ28uc3Zn.svg"
+    },
+    {
+      "id": "viva",
+      "type": "link",
+      "title": "Viva Translate",
+      "subtitle": "vivatranslate.com",
+      "url": "http://vivatranslate.com",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cDovL3ZpdmF0cmFuc2xhdGUuY29tL2Fzc2V0cy9mYXZpY29uL2FwcGxlLXRvdWNoLWljb24tMTUyeDE1Mi5wbmc%3D.png"
+    },
+    {
+      "id": "pareto",
+      "type": "link",
+      "title": "Pareto AI",
+      "subtitle": "hellopareto.com",
+      "url": "https://hellopareto.com/",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9jZG4ucHJvZC53ZWJzaXRlLWZpbGVzLmNvbS82OGFmMDNkYjQ0YmI1NGI3YmNmM2VmMGEvNjhiOTQ3NzZhZTdjZTVjOTMzODRhOTU4X3dlYi5zdmc%3D.svg"
+    },
+    {
+      "id": "outliers",
+      "type": "link",
+      "title": "Outliers",
+      "subtitle": "outliers.fund",
+      "url": "http://outliers.fund",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9vdXRsaWVycy5mdW5kL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIyLzEwL2Nyb3BwZWQtbWFpbi1mYXZpY29uLTE4MHgxODAucG5n.png"
+    },
+    {
+      "id": "deepform",
+      "type": "link",
+      "title": "Deepform",
+      "subtitle": "deepform.ai",
+      "url": "http://deepform.ai",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9jZG4uc2Vkby5jb20vZmF2aWNvbi5pY28%3D.ico"
+    },
+    {
+      "id": "metaphor",
+      "type": "link",
+      "title": "Metaphor",
+      "subtitle": "metaphor.so",
+      "url": "https://metaphor.so/",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFBRUFBQUFCQ0FJQUFBQ1FkMVBlQUFBQURFbEVRVlFJMTJQNC8vOC9BQVgrQXY3Y3pGbm5BQUFBQUVsRlRrU3VRbUND.jpeg"
+    },
+    {
+      "id": "cool-projects-header",
+      "type": "header",
+      "title": "Cool Projects from Inceptans",
+      "size": "4x1"
+    },
+    {
+      "id": "nvc",
+      "type": "link",
+      "title": "NVC Translator",
+      "subtitle": "nvctranslator.com",
+      "url": "http://nvctranslator.com/",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cDovL252Y3RyYW5zbGF0b3IuY29tL3N0YXRpYy9hcHBsZS10b3VjaC1pY29uLnBuZw%3D%3D.png"
+    },
+    {
+      "id": "admitsphere",
+      "type": "link",
+      "title": "Admitsphere",
+      "subtitle": "admitsphere.jacobcole.net",
+      "url": "http://admitsphere.jacobcole.net",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9zc2wuZ3N0YXRpYy5jb20vYXRhcmkvaW1hZ2VzL3B1YmxpYy9mYXZpY29uLmljbw%3D%3D.ico"
+    },
+    {
+      "id": "rsiwiki",
+      "type": "link",
+      "title": "RSI Wiki",
+      "subtitle": "rsiwiki.jacobcole.net",
+      "url": "http://RsiWiki.jacobcole.net",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9zc2wuZ3N0YXRpYy5jb20vYXRhcmkvaW1hZ2VzL3B1YmxpYy9mYXZpY29uLmljbw%3D%3D.ico"
+    },
+    {
+      "id": "instadefine",
+      "type": "link",
+      "title": "InstaDefine",
+      "subtitle": "easydefine.com",
+      "url": "https://easydefine.com/instadefine/",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9lYXN5ZGVmaW5lLmNvbS9mYXZpY29uLmljbw%3D%3D.ico"
+    },
+    {
+      "id": "art",
+      "type": "image",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2FsZk9AyYRjPEiprgd-inceptoart.jpg",
+      "size": "1x1"
+    },
+    {
+      "id": "video-1",
+      "type": "video",
+      "url": "https://storage.googleapis.com/creatorspace-public/users%2Fclijshtx200mrol01rllybfmx%2Fedc1PP3acPoRXPbA-IMG_5148.MOV",
+      "size": "1x1"
+    },
+    {
+      "id": "neurips-paper",
+      "type": "link",
+      "title": "Adversarial training for high-stakes reliability",
+      "subtitle": "proceedings.neurips.cc",
+      "url": "https://proceedings.neurips.cc//paper_files/paper/2022/hash/3c44405d619a6920384a45bce876b41e-Abstract-Conference.html",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites/aHR0cHM6Ly9wcm9jZWVkaW5ncy5uZXVyaXBzLmNjLy9wYXBlcl9maWxlcy9wYXBlci8yMDIyL2hhc2gvM2M0NDQwNWQ2MTlhNjkyMDM4NGE0NWJjZTg3NmI0MWUtQWJzdHJhY3QtQ29uZmVyZW5jZS5odG1s/screenshot.jpeg"
+    },
+    {
+      "id": "scholar-link",
+      "type": "link",
+      "title": "Google Scholar",
+      "subtitle": "scholar.google.com",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4WdgtwAAAAJ&citation_for_view=U4WdgtwAAAAJ:d1gkVwhDpl0C",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites/aHR0cHM6Ly9zY2hvbGFyLmdvb2dsZS5jb20vY2l0YXRpb25zP3ZpZXdfb3A9dmlld19jaXRhdGlvbiZobD1lbiZ1c2VyPVU0V2RndHdBQUFBSiZjaXRhdGlvbl9mb3Jfdmlldz1VNFdkZ3R3QUFBQUo6ZDFna1Z3aERwbDBD/screenshot.jpeg"
+    },
+    {
+      "id": "paperswithcode",
+      "type": "link",
+      "title": "RL on Web Interfaces",
+      "subtitle": "paperswithcode.com",
+      "url": "https://paperswithcode.com/paper/reinforcement-learning-on-web-interfaces",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites%2Fogimages%2FaHR0cHM6Ly9jZG4tdGh1bWJuYWlscy5odWdnaW5nZmFjZS5jby9zb2NpYWwtdGh1bWJuYWlscy9wYXBlcnMvMTgwMi4wODgwMi9ncmFkaWVudC5wbmc%3D.png"
+    },
+    {
+      "id": "citation-bias",
+      "type": "link",
+      "title": "Citation Bias",
+      "subtitle": "cris.maastrichtuniversity.nl",
+      "url": "https://cris.maastrichtuniversity.nl/en/publications/citation-bias-and-other-determinants-of-citation-in-biomedical-re",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites%2Fogimages%2FaHR0cHM6Ly9jcmlzLm1hYXN0cmljaHR1bml2ZXJzaXR5Lm5sL3NraW4vaGVhZGVySW1hZ2Uv.jpeg"
+    },
+    {
+      "id": "milo-video",
+      "type": "youtube",
+      "title": "Meet Milo",
+      "subtitle": "youtu.be",
+      "url": "https://youtu.be/_46AoSnHCRo",
+      "size": "1x1",
+      "image": "https://storage.googleapis.com/creatorspace-public/sites%2Fogimages%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9fNDZBb1NuSENSby9tYXhyZXNkZWZhdWx0LmpwZw%3D%3D.jpeg"
+    },
+    {
+      "id": "openai",
+      "type": "link",
+      "title": "Just a moment...",
+      "subtitle": "openai.com",
+      "url": "https://openai.com",
+      "size": "1x1",
+      "icon": "https://openai.com/favicon.ico"
+    },
+    {
+      "id": "agora",
+      "type": "link",
+      "title": "Agora.community | Discord",
+      "subtitle": "agora.community",
+      "url": "https://agora.community",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9hZ29yYS5jb21tdW5pdHkvYXBwbGUtdG91Y2gtaWNvbi5wbmc%3D.png"
+    },
+    {
+      "id": "swarms",
+      "type": "link",
+      "title": "The Swarms Marketplace",
+      "subtitle": "swarms.world",
+      "url": "https://swarms.world",
+      "size": "1x1",
+      "icon": "https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9zd2FybXMud29ybGQvYXBwbGUtdG91Y2gtaWNvbi5wbmc%3D.png"
+    },
+    {
+      "id": "qigong",
+      "type": "link",
+      "title": "Incepto Qigong Guide",
+      "subtitle": "qigong.incepto.house",
+      "url": "http://qigong.incepto.house",
+      "size": "1x1",
+      "icon": "https://qigong.incepto.house/favicon.ico"
+    },
+    {
+      "id": "quartz4",
+      "type": "link",
+      "title": "Welcome to Quartz 4",
+      "subtitle": "quartz.jzhao.xyz",
+      "url": "https://quartz.jzhao.xyz",
+      "size": "1x1",
+      "icon": "https://quartz.jzhao.xyz/favicon.ico"
+    },
+    {
+      "id": "playlists-header",
+      "type": "header",
+      "title": "Playlists",
+      "size": "4x1"
+    },
+    {
+      "id": "trance-work",
+      "type": "spotify",
+      "title": "Trance Work Music",
+      "subtitle": "Spotify Playlist",
+      "url": "https://open.spotify.com/playlist/2uET10Y5WOjTOwIpytAyLs?si=161994923bf5479c",
+      "size": "2x2"
+    },
+    {
+      "id": "classic-rock",
+      "type": "spotify",
+      "title": "Harmonious Classic Rock",
+      "subtitle": "Spotify Playlist",
+      "url": "https://open.spotify.com/playlist/0mleBz8liMlGj4OWJ1F6GI?si=5b0cd6a043264f36",
       "size": "2x2"
     }
   ]
